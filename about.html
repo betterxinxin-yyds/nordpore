@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Nordpore</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn about Nordpore's mission to advance nanopore technology. Meet our team of researchers and scientists at KTH Royal Institute of Technology in Stockholm.">
+    <meta name="keywords" content="about nordpore, nanopore research, KTH cleanroom, nanopore team, Stockholm biotech">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.nordpore.com/about.html">
+    <meta property="og:title" content="About Nordpore - Our Mission & Team">
+    <meta property="og:description" content="Leading the way in solid-state nanopore manufacturing from KTH Stockholm.">
+    <meta property="og:image" content="https://www.nordpore.com/images/company-photo.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.nordpore.com/about.html">
+    <meta property="twitter:title" content="About Nordpore - Our Mission & Team">
+    <meta property="twitter:description" content="Leading the way in solid-state nanopore manufacturing from KTH Stockholm.">
+    <meta property="twitter:image" content="https://www.nordpore.com/images/company-photo.jpg">
+    
+    <!-- Favicon - 重要：使用绝对路径以便Google抓取 -->
+    <link rel="icon" type="image/png" href="/images/icon.png">
+    <link rel="shortcut icon" type="image/png" href="/images/icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icon.png">
+    <!-- 备用：传统favicon位置 -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/pages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Responsive styles for About page only */
+        @media (max-width: 968px) {
+            .about-layout {
+                flex-direction: column !important;
+                gap: 2rem !important;
+            }
+            .about-layout img {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+            #news .news-item {
+                flex-direction: column !important;
+            }
+            #news .news-item img {
+                width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="Nordpore Logo" class="logo-image">
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html" class="btn-contact">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Overview -->
+    <section class="content-section" style="padding-bottom: 3rem;">
+        <div class="container" style="max-width: 1150px;">
+            <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--text-dark); font-family: 'Space Grotesk', sans-serif;">About Nordpore</h2>
+            <div class="about-layout" style="display: flex; gap: 2rem; align-items: flex-start;">
+                <div style="flex: 1;">
+                    <p style="color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.8;">Built on the KTH cleanroom infrastructure, Nordpore represents a breakthrough in nanopore manufacturing technology. We manufacture ultrathin, geometry-tunable solid-state nanopore chips and package them as ready-to-use flow cells.</p>
+                    <p style="color: var(--text-secondary); line-height: 1.8;">We are dedicated to building an accessible and highly customizable nanopore platform that empowers researchers and industry partners to advance single-molecule analysis technologies. By combining precision nanofabrication with flexible design capabilities, we aim to accelerate discoveries in genomics, proteomics, and molecular diagnostics through collaborative innovation.</p>
+                </div>
+                <img src="images/yellowroom.jpg" alt="Cleanroom Manufacturing" style="width: 400px; height: auto; border-radius: 0.5rem; box-shadow: var(--shadow-md); flex-shrink: 0;">
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="content-section" style="padding-top: 3rem;" id="news">
+        <div class="container" style="max-width: 1150px;">
+            <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem; color: var(--text-dark); font-family: 'Space Grotesk', sans-serif;">News</h3>
+            <div class="news-item" style="padding: 2rem; background: var(--bg-light); border-radius: 1rem; margin-bottom: 2rem;">
+                <div class="news-meta" style="display: flex; gap: 1rem; margin-bottom: 1rem; font-size: 0.9rem;">
+                    <span class="news-category" style="background: var(--accent-color); color: white; padding: 0.25rem 0.75rem; border-radius: 4px; font-weight: 600;">ANNOUNCEMENT</span>
+                    <span style="color: var(--text-light);">October 16, 2025</span>
+                </div>
+                <h4 style="font-size: 1.75rem; margin-bottom: 1rem; color: var(--text-dark); font-family: 'Space Grotesk', sans-serif;">KTH Innovation Grant</h4>
+                <p style="margin-bottom: 1rem;">We are excited to announce that we received the KTH Innovation Grant to support the development of our ultrathin, geometry-tunable solid-state nanopore technology. This grant recognizes the innovative nature of our nanopores, enabling us to further advance our R&D efforts and making our pores available to the entire single-molecule sensing community.</p>
+                <p>We are grateful to KTH Innovation for their continued support in bringing cutting-edge nanotechnology from the lab to research communities, as well as making precision nanopore solutions accessible to researchers worldwide.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-logo">NORDPORE</h3>
+                    <p>Solid-state nanopore manufacturing built on KTH cleanroom infrastructure</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Technology</h4>
+                    <ul>
+                        <li><a href="technology.html">Nanopore Chips</a></li>
+                        <li><a href="technology.html">Microfluidic Flowcells</a></li>
+                        <li><a href="index.html#usecases">Applications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html#news">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2025 Nordpore</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
+

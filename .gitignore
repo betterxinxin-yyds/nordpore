@@ -1,0 +1,19 @@
+# macOS junk
+.DS_Store
+DS_Store
+
+# Images not used on the site (kept locally, not published)
+images/app-sequencing.jpg
+images/carousel-2.jpg
+images/cleanroom.jpg
+images/favicon.svg
+images/header-products.jpg
+images/innovation.jpg
+images/logo.svg
+images/me1.jpg
+images/me2.jpg
+images/myfab.png
+images/team-frank.jpg
+images/team-valentin.jpg
+images/team-xinxin.jpg
+images/wafer.jpg
